@@ -18,4 +18,32 @@ body {
     url("../font/Vazir.ttf") format("truetype"),
     url("../font/Vazir.eot") format("eot");
 }
-
+/* a tag styling */
+a {
+  text-decoration: none;
+}
+/* li styling */
+li {
+  list-style: none;
+}
+/* styling items */
+.content{
+  display: flex;
+  flex-direction: column;
+}
+/* navbar */
+.navbar{
+  width: 1200px;
+  align-self: center;
+  padding: 20px 0;
+}
+/* logo title */
+.logo{
+  width: 70px;
+  height: 60px;
+  float: right;
+}
+.title{
+  float: right;
+  font-size: 30px;
+}

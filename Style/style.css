@@ -1,0 +1,21 @@
+/* general styling */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Vazir";
+}
+/* body seciton */
+body {
+  background-color: #f1f2f3;
+}
+/* font face section */
+@font-face {
+  font-family: "Vazir";
+  font-weight: 400;
+  src: url("../font/Vazir.woff") format("woff"),
+    url("../font/Vazir.woff") format("woff2"),
+    url("../font/Vazir.ttf") format("truetype"),
+    url("../font/Vazir.eot") format("eot");
+}
+

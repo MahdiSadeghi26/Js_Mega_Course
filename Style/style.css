@@ -4,9 +4,11 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Vazir";
+  color: whitesmoke;
 }
 /* body seciton */
 body {
+  direction: rtl;
   background-color: #f1f2f3;
 }
 /* font face section */
@@ -27,23 +29,79 @@ li {
   list-style: none;
 }
 /* styling items */
-.content{
+.content {
   display: flex;
   flex-direction: column;
 }
 /* navbar */
-.navbar{
-  width: 1200px;
+.navbar {
+  width: 700px;
   align-self: center;
   padding: 20px 0;
 }
 /* logo title */
-.logo{
+.logo {
   width: 70px;
   height: 60px;
   float: right;
 }
-.title{
+.title {
   float: right;
   font-size: 30px;
+}
+.cart {
+  float: left;
+  padding: 10px 0;
+}
+
+/* banner seciton */
+.banner {
+  background-color: #7b62e9;
+  width: 100vw;
+  padding: 30px 0;
+  border-top-right-radius: 45px;
+  border-top-left-radius: 45px;
+  display: flex;
+  flex-direction: column;
+}
+.titles {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.header {
+  font-size: 2.3rem;
+  padding: 10px;
+}
+.subHeader {
+  font-size: 1.2rem;
+  padding-bottom: 25px;
+}
+/* search form */
+.form{
+  border: none;
+
+}
+.search{
+  position: relative;
+  color: black;
+  padding: 10px 40px;
+  border: none;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  font-size: 1rem;
+}
+.submit{ 
+  padding: 12px;
+  border: none;
+
+  position: absolute;
+  background-color: white;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.magnifier{
+  padding: 4px 12px;
+  background:url("../img/mglass.png")no-repeat;
 }

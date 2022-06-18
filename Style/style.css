@@ -28,6 +28,9 @@ a {
 li {
   list-style: none;
 }
+h4 {
+  color: black;
+}
 /* styling items */
 .content {
   display: flex;
@@ -135,4 +138,63 @@ li {
 #lamp {
   width: 30px;
   height: 36px;
+}
+/* Container section */
+.container {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.logoTitle {
+  padding: 15px 0;
+  color: #234582;
+  align-self: center;
+  font-size: 2.2rem;
+}
+/* row section */
+.row {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.card {
+  width: calc(75% / 2);
+  border-radius: 40px;
+  background-color: white;
+}
+.card * {
+  color: black;
+}
+.cardImg {
+  border-radius: 40px;
+  width: 100%;
+}
+.infoCard {
+  font-size: 1.4rem;
+  padding: 10px 25px;
+  text-align: right;
+}
+.author {
+  font-size: 1.2rem;
+}
+.price {
+  font-size: 1.2rem;
+  margin-bottom: 25px;
+}
+.offPrice {
+  text-decoration: line-through;
+  display: inline-block;
+}
+.newPrice {
+  float: left;
+}
+.buyButton{
+  background-color: #43B6FA;
+  color: white;
+  display: block;
+  padding: 5px;
+  border-radius: 25px;
+  font-size: 1.1rem;
+  text-align: center;
 }

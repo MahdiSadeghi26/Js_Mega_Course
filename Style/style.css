@@ -81,6 +81,7 @@ li {
 /* search form */
 .form {
   border: none;
+  margin-left: 48px;
 }
 .search {
   position: relative;
@@ -133,5 +134,5 @@ li {
 }
 #lamp {
   width: 30px;
-  height: 40px;
+  height: 36px;
 }

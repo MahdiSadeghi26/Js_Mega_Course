@@ -1,3 +1,4 @@
+
 /* general styling */
 * {
   padding: 0;
@@ -141,7 +142,7 @@ h4 {
 }
 /* Container section */
 .container {
-  width: 70%;
+  width:1200px;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -151,17 +152,16 @@ h4 {
   padding: 15px 0;
   color: #234582;
   align-self: center;
-  font-size: 2.2rem;
+  font-size: 2.5rem;
 }
 /* row section */
 .row {
-  
   margin-bottom: 35px;
   display: flex;
   justify-content: space-around;
 }
 .card {
-  width: calc(75% / 2);
+  width: calc(70% / 2);
   border-radius: 40px;
   background-color: white;
 }
@@ -173,12 +173,12 @@ h4 {
   width: 100%;
 }
 .infoCard {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   padding: 10px 25px;
   text-align: right;
 }
 .author {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 .price {
   font-size: 1.2rem;
@@ -191,12 +191,31 @@ h4 {
 .newPrice {
   float: left;
 }
-.buyButton{
-  background-color: #43B6FA;
+.buyButton {
+  background-color: #43b6fa;
   color: white;
   display: block;
   padding: 5px;
   border-radius: 25px;
   font-size: 1.1rem;
   text-align: center;
+}
+/* footer */
+.footer {
+  background-color: #bfbfbf;
+  border-top-right-radius: 45px;
+  border-top-left-radius: 45px;
+}
+.footer-navbar {
+  display: flex;
+  justify-content: space-around;
+  padding: 25px 0;
+}
+.footer-navbar * {
+  color: #000000;
+  margin-bottom: 10px;
+}
+.footer-item{
+  font-size: 1.1rem;
+  padding-bottom: 0px;
 }

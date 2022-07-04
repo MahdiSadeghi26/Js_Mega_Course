@@ -182,8 +182,10 @@ h4 {
 }
 .price {
   font-size: 1.2rem;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
+  margin-top: 25px;
 }
+
 .offPrice {
   text-decoration: line-through;
   display: inline-block;
@@ -199,6 +201,9 @@ h4 {
   border-radius: 25px;
   font-size: 1.1rem;
   text-align: center;
+}
+#firstBuyButton{
+  margin-top: 13px;
 }
 /* footer */
 .footer {

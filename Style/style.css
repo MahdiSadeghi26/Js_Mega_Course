@@ -1,4 +1,3 @@
-
 /* general styling */
 * {
   padding: 0;
@@ -40,7 +39,7 @@ h4 {
 /* navbar */
 .navbar {
   width: 700px;
-  align-self: center;
+  margin: 0 auto;
   padding: 20px 0;
 }
 /* logo title */
@@ -52,6 +51,7 @@ h4 {
 .title {
   float: right;
   font-size: 30px;
+  color: black;
 }
 .cart {
   float: left;
@@ -142,7 +142,7 @@ h4 {
 }
 /* Container section */
 .container {
-  width:1200px;
+  width: 1200px;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -215,7 +215,20 @@ h4 {
   color: #000000;
   margin-bottom: 10px;
 }
-.footer-item{
+.footer-item {
   font-size: 1.1rem;
   padding-bottom: 0px;
+}
+/* responsive section */
+@media (max-width:1199.98px){
+  .container{
+    width: 992px;
+    margin: 0 auto;
+  }
+  
+  .banner{
+    margin: 0 auto;
+    width: 100%;
+  }
+
 }

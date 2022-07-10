@@ -287,4 +287,28 @@ h4 {
    .footer-item{
     font-size: 1rem;
    }
+   @media (max-width:767.99px) {
+    .navbar{
+      width: 70%;
+    }
+    .infoBar{
+      flex-direction: column;
+      text-align: center;
+    }
+    .container{
+      width: 576px;
+    }
+    .row{
+      display: block;
+      margin:  0 ;
+    }
+    .card{
+      margin: 25px 20px;
+        width: calc(100% - 40px);
+    }
+    .footer-navbar{
+      flex-direction: column;
+      text-align: center;
+    }
+   }
 }

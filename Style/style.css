@@ -311,4 +311,16 @@ h4 {
       text-align: center;
     }
    }
+   @media (max-width:575.98px) {
+    .navbar{
+      width: 80%;
+    }
+    .header{
+      font-size: 1.5rem;
+    }
+    .subHeader{
+      font-size: 1rem;
+    }
+    .
+   }
 }

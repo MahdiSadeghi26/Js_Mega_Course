@@ -1,0 +1,18 @@
+{
+  
+  "name": "js_mega_course",
+  "version": "0.0.1",
+  "description": "Js Mega Show is an mini project uses the local Storage for saving shopping cart ",
+  "main": "index.js",
+  "repository": "git@github.com:MahdiSadeghi26/Js_Mega_Course.git",
+  "author": "Mahdi Sadeghi",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "preview": "vite preview",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "vite": "^2.9.14"
+  }
+}

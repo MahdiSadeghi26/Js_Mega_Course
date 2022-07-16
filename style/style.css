@@ -56,6 +56,44 @@ h4 {
 .cart {
   float: left;
   padding: 10px 0;
+  position: relative;
+}
+.cart *{
+  color: black;
+}
+.cart #shoppingCart{
+  display: none;
+}
+.cart:hover #shoppingCart{
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    padding: 20px;
+    z-index: 1;
+    min-height: 400px;
+    min-width: 300px;
+    background-color: white;
+    border-radius: 20px;
+  }
+
+th ,td{
+  padding: 12px 15px;
+  text-align: right;
+}
+
+#clearCart{
+  margin-top: 10px;
+  display: inline-block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: lightgray;
+  text-align: center;
+  transition: all .9s;
+}
+#clearCart:hover{
+  background-color:lightslategray
 }
 
 /* banner seciton */

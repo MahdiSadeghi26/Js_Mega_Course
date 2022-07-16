@@ -84,13 +84,13 @@ th ,td{
 
 #clearCart{
   margin-top: 10px;
-  display: inline-block;
+  display: block;
   width: 100%;
   padding: 10px;
   border-radius: 15px;
   background-color: lightgray;
   text-align: center;
-  transition: all .9s;
+  transition: all 1s ease-in;
 }
 #clearCart:hover{
   background-color:lightslategray
@@ -266,7 +266,10 @@ th ,td{
     width: 992px;
     margin: 0 auto;
   }
-  
+  .cart:hover #shoppingCart{  
+    left: 100%;
+    right: unset;
+  }
   .banner{
     margin: 0 auto;
     width: 100%;

@@ -1,5 +1,4 @@
 {
-  
   "name": "js_mega_course",
   "version": "0.0.1",
   "description": "Js Mega Show is an mini project uses the local Storage for saving shopping cart ",
@@ -14,5 +13,8 @@
   },
   "devDependencies": {
     "vite": "^2.9.14"
+  },
+  "dependencies": {
+    "sass": "^1.54.0"
   }
 }
